@@ -43,8 +43,7 @@ https://github.com/gunjan01aggarwal/assign-fastapi-web-app.git
 
 
 Q1.Why you choose your method for creating a unique system filename?
-
-	I choose a method for creating a unique system filename because of avoiding same filename. I don't know other user can be choose same name of file like flowers.png .This anme can be choose by many others users due to its a picture of a flowers. So i choose uuid.uuid4()  which generates a randomly unique 128-bit identifier.Its simple,secure and works for all platforms.
+	I choose a method for creating a unique system filename because of avoiding same filename. I don't know other user can be choose same name of file like flowers.png .This name can be choose by many others users due to its a picture of a flowers. So i choose uuid.uuid4()  which generates a randomly unique 128-bit identifier.Its simple,secure and works for all platforms.
 
 Q3.Any challenges you faced and how you resolved them?
  I faced many challenges while solving this project like:
