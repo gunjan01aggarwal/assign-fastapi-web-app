@@ -26,4 +26,17 @@ fastapi_webapp/
 https://github.com/gunjan01aggarwal/assign-fastapi-web-app.git
 
 
+# there are four endpoints:
+# 1. Post request:You can upload any image from  this endpoint.
+#   http://127.0.0.1:8000/form
+
+# 2. Get request:You can see all images information in the form of a table.
+#  http://127.0.0.1:8000/files/html 
+
+# 3. Get request: You can see all images information in a json format.
+# http://127.0.0.1:8000/files/
+
+# 4. It shows current upload image information.
+# http://127.0.0.1:8000/upload/
+
 
