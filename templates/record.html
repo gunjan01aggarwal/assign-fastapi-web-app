@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Original Name</th>
+        <th>System Name</th>
+        <th>Size (bytes)</th>
+        <th>Uploaded At</th>
+    </tr>
+    {% for f in files %}
+    <tr>
+        <td>{{ f.id }}</td>
+        <td>{{ f.original_filename }}</td>
+        <td>{{ f.system_filename }}</td>
+        <td>{{ f.file_size_bytes }}</td>
+        <td>{{ f.uploaded_at }}</td>
+    </tr>
+    {% endfor %}
+</table>
